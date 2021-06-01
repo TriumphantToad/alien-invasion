@@ -10,3 +10,6 @@ class Settings:
         # Ship settings
         self.ship_image_path = 'images/pixel-ship.png'
         self.ship_speed = 0.75
+        # Bullet settings
+        self.bullet_image_path = 'images/bullet.png'
+        self.bullet_speed = 1.5
