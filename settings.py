@@ -12,4 +12,4 @@ class Settings:
         self.ship_speed = 0.75
         # Bullet settings
         self.bullet_image_path = 'images/bullet.png'
-        self.bullet_speed = 1.5
+        self.bullet_speed = 0.75
