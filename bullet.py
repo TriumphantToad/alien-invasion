@@ -23,7 +23,3 @@ class Bullet(Sprite):
         self.y -= self.settings.bullet_speed
         # Update the rect position of the bullet
         self.rect.y = round(self.y)
-
-    def blitme(self):
-        """Draw the bullet at its current location"""
-        self.screen.blit(self.image, self.rect)
